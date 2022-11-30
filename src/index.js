@@ -1,4 +1,4 @@
-import  Application  from "./js/Application";
+import  Application  from './js/Application';
 
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
