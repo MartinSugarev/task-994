@@ -24,8 +24,8 @@ export default class Application extends EventEmitter {
 
   }
 
-  addBananas(arr) {
-    let newArr = arr.map(el =>  el + ' ' + this.banana);
+  addBananas() {
+    let newArr = this.emojis.map(el =>  el + ' ' + this.banana);
     return newArr
   }
 
